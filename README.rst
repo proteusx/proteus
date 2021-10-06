@@ -14,15 +14,19 @@ or as \LaTeX\ source code for further processing.
 |
 
 .. class:: center
+The Author Selection List
+
 .. figure:: src/manual/images/authors-en.png
    :scale: 100
    :align: center
    :alt: Author Selection List
 
-   The Author Selection List
 
 |
 |
+
+.. class:: center
+The Texts Selection List
 
 .. class:: center
 .. figure:: src/manual/images/works-en.png
@@ -30,7 +34,6 @@ or as \LaTeX\ source code for further processing.
    :align: center
    :alt: Texts Selection List
 
-   The Texts Selection List
 
 
 
