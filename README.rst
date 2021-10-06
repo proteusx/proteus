@@ -1,5 +1,6 @@
-Proteus
-+++++++
+Work in Progress
+++++++++++++++++
+To be uploaded soon.
 
 Description
 ___________
@@ -30,10 +31,7 @@ or as \LaTeX\ source code for further processing.
    The Texts Selection List
 
 
-Work in Progress
-________________
 
-To be uploaded soon.
 
 
 .. vim: set syntax=rst tw=80 spell fo=tq:
