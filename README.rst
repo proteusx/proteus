@@ -13,6 +13,7 @@ or as \LaTeX\ source code for further processing.
 
 |
 
+.. class:: center
 .. figure:: src/manual/images/authors-en.png
    :scale: 100
    :align: center
@@ -23,6 +24,7 @@ or as \LaTeX\ source code for further processing.
 |
 |
 
+.. class:: center
 .. figure:: src/manual/images/works-en.png
    :scale: 100
    :align: center
