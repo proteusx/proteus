@@ -14,6 +14,7 @@ or as \LaTeX\ source code for further processing.
 |
 
 The Author Selection List
+_________________________
 
 .. figure:: src/manual/images/authors-en.png
    :scale: 100
@@ -26,6 +27,7 @@ The Author Selection List
 
 
 The Texts Selection List
+________________________
 
 .. figure:: src/manual/images/works-en.png
    :scale: 100
