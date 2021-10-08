@@ -158,6 +158,10 @@ A release is provided with ready built binaries, index and documentation.
 - Find the manual in the ``doc`` subfolder and follow the step by step installation guide.
 
 
+---------------------------------------------------------------------------------------------
+
+
+
 .. [#] Thesaurus Linguae Grecae is a digital library in a CD-ROM and it contains
    all the literary texts written in the Greek language from the time of Homer
    until 1453 A.D.  See: http://www.tlg.uci.edu
