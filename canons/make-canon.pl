@@ -88,8 +88,8 @@ sub read_ddp_canon ;
 #  Decoding programs
 #  Verify they exist
 #--------------------------------------
-# my $bin_dir = './bin/';
-my $bin_dir = '/usr/local/proteus/bin/';
+my $bin_dir = '../bin/';
+# my $bin_dir = '/usr/local/proteus/bin/';
 my $idt_decode_prog = $bin_dir . 'read_idt';         # .idt-decoder
 die if &test_file($idt_decode_prog);
 my $txt_decode_prog = $bin_dir . 'tlg2u';            # .txt-decoder
@@ -98,7 +98,7 @@ die if &test_file($txt_decode_prog);
 # The ddp corpus has no author table.
 # We have made our own from Web info
 # look for this file in the current dir.
-my $ddp_authtab='./canons/dpp-authtab.dir' ;
+my $ddp_authtab='./dpp-authtab.dir' ;
 die if &test_file($ddp_authtab);
 #--------------------------------------
 # Corpus directories
@@ -106,7 +106,7 @@ die if &test_file($ddp_authtab);
 # proteusrc file
 #--------------------------------------
 my ($tlg_dir, $phi5_dir, $phi7_dir);
-my $rc_file = './proteusrc';
+my $rc_file = '../proteusrc';
 # if rc file exists read dirs from it
 die if (&test_file($rc_file));
 
@@ -306,7 +306,7 @@ foreach my $corpus (@corpi) {
   #----------------------------------------------------
   $canons{$corpus} =  freeze(\%canon) ;     # is a string
   # utf8::downgrade($canons{$corpus});
-  print "Frozen!\n";
+  print "Done!\n";
   print "Total authors: $authors_total,  Total Works: $works_total\n\n";
 } # --- end foreach corpus
 store(\%canons, $canon_file) or die "Error in storing %a in $canon_file!\n";

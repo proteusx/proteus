@@ -95,7 +95,17 @@
   The TLG and PHI libraries are not included with
   Proteus and you must obtain the CD-ROMs separately. Proteus can
   access the CDs directly, but it will perform better if all the files are
-  copied to hard disk directories.
+  copied to hard disk directories. The default location for the TLG nad PHI files is
+  {\tt /usr/local/CDROMS/} and the expected directory structure is:
+  \begin{verbatim}
+              /usr/local/CDROMS/
+                                |-- phi5
+                                |-- phi7
+                                |-- tlg
+  \end{verbatim}
+  Copy the contents of the CDs to the above directories.  If you install the
+  files somewhere else you need to edit the top 3 lines the configuration
+  file {\tt proteusrc} so that proteus can find them.
   %
   \paragraph{Perl.}
   It requires a Perl interpreter (version 5.8.6 or greater) and the
@@ -133,20 +143,21 @@
 % Linux Installation
 %%%%%%%%%%%%%%%%%%%%%%
 \section{Linux Installation}
-    Unpack the contents of the compressed archive somewhere in your home directory.
+
+    \paragraph{Installation of CDROMs.}Copy the TLG and PHI files from the CDs
+    to the default directories as indicated in the previous section.
+    %
+    \paragraph{Download} and unpack the contents of the compressed release
+    archive somewhere in your home directory.
     %
     \paragraph{Unicode Fonts.}
       Verify that the system has some unicode fonts installed, as described above.
       If not, download and install fonts as provided by your Linux distribution.
-      Some fonts are included in the release and these will be transferred to the directory
-      {\tt /usr/local/proteus/fonts} during installation. Proteus can use them
-      from there as external\footnote{External fonts are specified by their font
-      filename whereas installed fonts are specified by their font family name.
-    For example the font file times.ttf when installed provides the font family ``Times New Roman'' }
-    fonts but you can also install them in the system.
-    %
+      Some fonts are included in the release and these can be installed in the directory
+      {\tt /usr/local/share/fonts} by typing  {\tt sudo make fonts}.
+      %
     \paragraph{XeTeX.}
-      Next you need to test your \TeX\ installation has all the required modules.
+      Next you need to verify that your \TeX\ installation has all the required modules.
       Most Linux distributions offer \TeX\ as an option. If possible, install
       TeX Live\footnote{http://www.tug.org/texlive/acquire.html} with all the
       Greek language options enabled and make certain that XeTeX, xgreek, xtab
@@ -154,26 +165,21 @@
       To test your installation, give the command:~ {\tt make xetex\_test}.~~
       If everything is in order your default pdf reader will open displaying
       some readable Greek text.  If the command gives errors and no pdf is produced
-      look at the log file {\tt \~{}/.proteus/books/test.log}  and check your
+      look at the log file {\tt \~{}test.log}  and check your
       \TeX\ installation. You many need to update XeteX and Fontspec.
     %
     \paragraph{Perl.}
       All Linux distributions have Perl installed by default.  Make certain that
       the required modules are installed. If not, do whatever is required
       by your distribution to download and install the missing modules.
-      You can also open a console and type (as superuser) the
-      command:\\*  {\tt \hspace*{2cm} cpan Tk File::Slurp Storable}
+      Alternatively you can test and install any missing modules with the
+      command:\\*  {\tt \hspace*{2cm} sudo make perl\_test}
     %
       \paragraph{Installing Proteus.}
-      If you are building Proteus from the sources:\\
-      {\tt\hspace*{1cm}git clone https://github.com/proteusx/proteus.git\\
-         \hspace*{1cm}cd src\\
-         \hspace*{1cm}make}\\
-         This will build the required binaries, the documentation and the index.
-      Become superuser ({\tt su} or {\tt sudo}) and issue the command:~
-      {\tt make install}.\newline
+      Installation is done through the makefile:\\*
+      {\tt \hspace*{2cm} sudo make install}.\newline
       This will install everything in the directory {\tt /usr/local/proteus}.
-      If you wish to install somewhere else, edit the {\tt instal\_prefix}
+      If you wish to install somewhere else, edit the {\tt INSTAL\_PREFIX}
       variable in the makefile .
       Thereafter you can start Proteus from the icon in the start menu
       (usually found in the category ``Office'') or by typing:~ {\tt proteus}
@@ -192,7 +198,7 @@
     %
     \paragraph{Uninstalling.}
       To completely clear Proteus from your system give the command:~
-      {\tt make uninstall}~ as superuser.  This however will not
+      {\tt sudo make uninstall}.  This however will not
       delete the directory {\tt \~{}/.proteus}
     %%%%%%%%%%%%%%%%%%%%%%
     % Windows Installation
@@ -431,7 +437,9 @@
       \end{center}
     \end{figure}
     \paragraph{External Fonts.} Proteus can also use fonts that are not installed and these
-    are called External fonts. Such fonts are .ttf or .otf files residing
+    are called External fonts\footnote{External fonts are specified by their font
+      filename whereas installed fonts are specified by their font family name.
+    For example the font file times.ttf when installed provides the font family ``Times New Roman'' }. Such fonts are .ttf or .otf files residing
     somewhere other than the system's font directory.\footnote{
                           The default location for such fonts is
                         {\tt /usr/local/proteus/fonts}}
