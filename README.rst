@@ -135,7 +135,7 @@ _____________
 You can start Proteus from the start menu.  Usually found under
 Applications/Office. Alternatively type **proteus** in a terminal.
 
-The documentation provides detailed instructions and examples.
+The documentation provides detailed usage instructions and examples.
 
 When running Proteus for the first time, a hidden directory ``.proteus``
 will be created in your home directory to keep your personal defaults and output files.
@@ -147,6 +147,9 @@ These locations can be altered from "Files", "Corpus Directories".
 The default location for output files (pdf, utf, etc.) is the
 subdirectory ``~/.proteus/books``.  You can later change this
 to wherever you like, via the menubar "Files", "Output Directory".
+
+---------------------------------------------------------------------------------------------
+
 
 Installing Proteus from the release
 ___________________________________
@@ -176,6 +179,7 @@ A release is provided with ready built binaries, index and documentation.
         texts in Latin, Greek, Coptic, Hebrew and English. For the list of contents
         see:
         https://web.archive.org/web/20170623105104/http://latin.packhum.org/canon
+   and
         https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
 
 .. [#] PHI7 includes a large collection
