@@ -38,31 +38,6 @@ Proteus is not suitable for word searches.  If you need to search the TLG/PHI
 for words or phrases, use Diogenes_. This is by far the best tool for searching
 or browsing the TLG database, and its free.
 
-.. [#] Thesaurus Linguae Grecae is a digital library in a CD-ROM and it contains
-   all the literary texts written in the Greek language from the time of Homer
-   until 1453 A.D.  See: http://www.tlg.uci.edu
-
-.. [#] The Greek texts occupy about 600 Mb (uncompressed), and the Latin texts
-   about 80 MB.
-
-.. [#] Diogenes, Musaios, Antiquarium, et. al.
-
-.. [#] PHI5 is a Latin language equivalent of the TLG.  It contains virtually
-        all classical Latin literature through to A.D. 200 and some biblical
-        texts in Latin, Greek, Coptic, Hebrew and English. For the list of contents
-        see:
-        https://web.archive.org/web/20170623105104/http://latin.packhum.org/canon
-        https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
-
-.. [#] PHI7 includes a large collection
-        of documentary papyri and Greek inscriptions.
-        https://web.archive.org/web/20080818140802/http://132.236.125.30/content.html
-
-.. [#] UTF-8 encoded plain text is compatible with MS Office Word and LibreOffice Writer.
-
-.. _BetaCode: http://stephanus.tlg.uci.edu/encoding.php
-.. _Diogenes: https://d.iogen.es/d/
-
 Screenshots
 ___________
 
@@ -183,4 +158,28 @@ A release is provided with ready built binaries, index and documentation.
 - Find the manual in the ``doc`` subfolder and follow the step by step installation guide.
 
 
+.. [#] Thesaurus Linguae Grecae is a digital library in a CD-ROM and it contains
+   all the literary texts written in the Greek language from the time of Homer
+   until 1453 A.D.  See: http://www.tlg.uci.edu
+
+.. [#] The Greek texts occupy about 600 Mb (uncompressed), and the Latin texts
+   about 80 MB.
+
+.. [#] Diogenes, Musaios, Antiquarium, et. al.
+
+.. [#] PHI5 is a Latin language equivalent of the TLG.  It contains virtually
+        all classical Latin literature through to A.D. 200 and some biblical
+        texts in Latin, Greek, Coptic, Hebrew and English. For the list of contents
+        see:
+        https://web.archive.org/web/20170623105104/http://latin.packhum.org/canon
+        https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
+
+.. [#] PHI7 includes a large collection
+        of documentary papyri and Greek inscriptions.
+        https://web.archive.org/web/20080818140802/http://132.236.125.30/content.html
+
+.. [#] UTF-8 encoded plain text is compatible with MS Office Word and LibreOffice Writer.
+
+.. _BetaCode: http://stephanus.tlg.uci.edu/encoding.php
+.. _Diogenes: https://d.iogen.es/d/
 .. vim: set syntax=rst tw=80 spell fo=tq:
