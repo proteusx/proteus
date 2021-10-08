@@ -1,0 +1,31 @@
+$tlg_dir = '/usr/local/CDROMS/tlg/';
+$phi5_dir = '/usr/local/CDROMS/phi5/';
+$phi7_dir = '/usr/local/CDROMS/phi7/';
+%print_font = (
+                'Latin' => [
+                           '1',
+                           'Times New Roman',
+                           'times.ttf'
+                         ],
+                'Bold' => [
+                          '1',
+                          'GFS Neohellenic',
+                          'times.ttf'
+                        ],
+                'Symbol' => [
+                            '1',
+                            'Cardo',
+                            'times.ttf'
+                          ],
+                'Greek' => [
+                           '1',
+                           'Times New Roman',
+                           'times.ttf'
+                         ]
+              );
+$corpus = 'tlg';
+$results_dir = '/home/prog/.proteus/books/';
+$external_font_dir = '/usr/local/proteus/fonts/';
+$pt_size = '14';
+$bold = '1';
+$output_file_type = 'pdf';

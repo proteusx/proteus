@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Proteus
+TryExec=proteus
+Exec=proteus
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=proteus
+Categories=Utilities;Office;Education;
+
