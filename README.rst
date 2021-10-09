@@ -163,6 +163,38 @@ A release is provided with ready built binaries, index and documentation.
 
 ---------------------------------------------------------------------------------------------
 
+Proteus on M$ Windows
+~~~~~~~~~~~~~~~~~~~~~
+Proteus works with Microsoft Windows. When Proteus was first written
+(about 15 years ago) Perl-TK was chosen because then it was the easiest way to
+port the application to Windows.
+
+To run Proteus in Windows you need to:
+
+* Install ActivePerl_ and the required Perl modules
+
+* Install TexLive_  and the required Tex packages.
+
+* Adjust the system variable ``PATH`` to include Active Perl and TeX
+  executables.
+
+* The testing scripts do not work in Windows so you have to verify yourself that
+  both you Perl and XeteX installation work properly.
+
+* Create the folder \Program files\proteus and transfer there all the files from the
+  Proteus distribution. The binary release already includes  ``bin/tlg2u.exe``
+  and ``bin/read_idt.exe`` compiled with Mingw-64_ to run on Windows.
+
+* Copy the TLG/PHI CDROMS to \CDROMS\ or wherever.
+
+After that clicking on \Program Files\proteus\proteus.pl should start the
+application.
+
+
+
+
+---------------------------------------------------------------------------------------------
+
 
 
 .. [#] Thesaurus Linguae Grecae is a digital library in a CD-ROM and it contains
@@ -190,4 +222,9 @@ A release is provided with ready built binaries, index and documentation.
 
 .. _BetaCode: http://stephanus.tlg.uci.edu/encoding.php
 .. _Diogenes: https://d.iogen.es/d/
+.. _Mingw-64: https://www.mingw-w64.org/
+.. _ActivePerl: https://www.activestate.com/products/perl/
+.. _TexLive: https://www.tug.org/texlive/
+
+
 .. vim: set syntax=rst tw=80 spell fo=tq:
