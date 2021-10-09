@@ -182,13 +182,13 @@ To run Proteus in Windows you need to:
 * The testing scripts do not work in Windows so you have to verify yourself that
   both you Perl and XeteX installation work properly.
 
-* Create the folder \Program files\proteus and transfer there all the files from the
+* Create the folder ``\Program files\proteus`` and transfer there all the files from the
   Proteus distribution. The binary release already includes  ``bin/tlg2u.exe``
   and ``bin/read_idt.exe`` compiled with Mingw-64_ to run on Windows.
 
 * Copy the TLG/PHI CDROMS to \CDROMS\ or wherever.
 
-After that clicking on \Program Files\proteus\proteus.pl should start the
+After that clicking on ``\Program Files\proteus\proteus.pl`` should start the
 application.
 
 
