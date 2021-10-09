@@ -186,7 +186,7 @@ To run Proteus in Windows you need to:
   Proteus distribution. The binary release already includes  ``bin/tlg2u.exe``
   and ``bin/read_idt.exe`` compiled with Mingw-64_ to run on Windows.
 
-* Copy the TLG/PHI CDROMS to \CDROMS\ or wherever.
+* Create a folder ``C:\CDROMS``, or wherever, and transfer the TLG/PHI CDROMS there.
 
 After that, clicking on ``\Program Files\proteus\proteus.pl`` should start the
 application.
