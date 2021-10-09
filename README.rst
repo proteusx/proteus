@@ -118,7 +118,7 @@ _______________________
            sudo make install
 
   Proteus will be installed in the directory ``/usr/local/proteus``.
-  If you wish to install somewhere else, edit the variable ``INSTAL_PREFIX``
+  If you wish to install somewhere else, edit the variable ``INSTALL_PREFIX``
   in the makefile.
 
 Uninstalling
@@ -167,7 +167,7 @@ Proteus on M$ Windows
 _____________________
 
 Proteus works with Microsoft Windows. When Proteus was first written
-(about 15 years ago) Perl-TK was chosen because then it was the easiest way to
+(about 15 years ago) Perl-TK was chosen because, at the time, it was the easiest way to
 port the application to Windows.
 
 To run Proteus in Windows you need to:
@@ -180,7 +180,7 @@ To run Proteus in Windows you need to:
   executables.
 
 * The testing scripts do not work in Windows so you have to verify yourself that
-  both you Perl and XeteX installation work properly.
+  both you Perl and XeteX installations work properly.
 
 * Create the folder ``\Program files\proteus`` and transfer there all the files from the
   Proteus distribution. The binary release already includes  ``bin/tlg2u.exe``
@@ -188,7 +188,7 @@ To run Proteus in Windows you need to:
 
 * Copy the TLG/PHI CDROMS to \CDROMS\ or wherever.
 
-After that clicking on ``\Program Files\proteus\proteus.pl`` should start the
+After that, clicking on ``\Program Files\proteus\proteus.pl`` should start the
 application.
 
 
