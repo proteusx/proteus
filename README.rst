@@ -164,7 +164,8 @@ A release is provided with ready built binaries, index and documentation.
 ---------------------------------------------------------------------------------------------
 
 Proteus on M$ Windows
-~~~~~~~~~~~~~~~~~~~~~
+_____________________
+
 Proteus works with Microsoft Windows. When Proteus was first written
 (about 15 years ago) Perl-TK was chosen because then it was the easiest way to
 port the application to Windows.
