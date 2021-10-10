@@ -18,7 +18,8 @@ fi
 # Pass test file through xetex
 # and sent pdf to books subdir
 
-xelatex -interaction=batchmode $test_tex &> /dev/null
+# xelatex -interaction=batchmode $test_tex &> /dev/null
+latexmk -xelatex -interaction=batchmode $test_tex &> /dev/null
 
 
 
@@ -27,7 +28,7 @@ xelatex -interaction=batchmode $test_tex &> /dev/null
 
 if [ -e  test.pdf ]; then
   xdg-open test.pdf
-  rm test.aux test.log
+  rm -f test.{aux,fdb_latexmk,fls,log,xdv}
 else
   echo "**** Error!"
   echo "test.pdf was not produced!"

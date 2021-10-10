@@ -68,14 +68,14 @@ ___________________
 - GCC and GNU make
 - Perl (version 5.8.6 or later), and the modules, Perl-Tk, Storable and
   File-Slurp
-- TeX installation including the packages XeTeX, xtab and xgreek
+- TeX installation including the packages latexmk, XeTeX, xtab and xgreek
 - Unicode Fonts that include the Greek and Greek Extended  ranges.
 - TLG and PHI5/7 CDROMS.
 
 Building and Installing
 _______________________
 
-- Copy the contents of the CDROMS to /usr/local/share/CDROMS.
+- Copy the contents of the CDROMS to /usr/local/CDROMS.
   The expected directory structure is as shown bellow::
 
               /usr/local/CDROMS/

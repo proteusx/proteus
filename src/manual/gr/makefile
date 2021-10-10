@@ -8,6 +8,6 @@ FLAGS = -xelatex
 all: $(TEX_FILE).tex
 	$(TEX) $(FLAGS) $^
 	install -m 0644 $(TEX_FILE).pdf $(DOC_DIR)
-	-rm $(TEX_FILE).{aux,toc,fls,log,fdb_latexmk,xdv,pdf}
+	-rm -f $(TEX_FILE).{aux,toc,fls,log,fdb_latexmk,xdv,pdf}
 
 

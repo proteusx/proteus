@@ -66,6 +66,6 @@ docs:
 # Delete binaries, object files and pdfs for upload
 clean:
 	-rm -rf ./bin ./doc
-	-rm ./canons/canons
-	-rm ./src/tlg2u/src/*.{o,d}
+	-rm -f ./canons/canons
+	-rm -f ./src/tlg2u/src/*.{o,d}
 

@@ -25,7 +25,7 @@ $phi7_dir = '/usr/local/CDROMS/phi7/';
               );
 $corpus = 'tlg';
 $results_dir = '/home/prog/.proteus/books/';
-$external_font_dir = '/usr/local/proteus/fonts/';
+$external_font_dir = '/usr/local/share/fonts/';
 $pt_size = '14';
 $bold = '1';
 $output_file_type = 'pdf';
