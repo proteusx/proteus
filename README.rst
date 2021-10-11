@@ -5,11 +5,11 @@ Proteus
 Description
 ___________
 
-Proteus is a decoder and converter for the ancient Greek and Latin
+Proteus is is a front end for tlg2u_, the  decoder and converter for the ancient Greek and Latin
 texts of the TLG and PHI digital libraries.
 The TLG/PHI databases can be searched via a user interface (GUI) and
-complete texts can be extracted as pdf documents, plain Unicode (utf-8) text
-or as \LaTeX\  source code for further processing.
+complete texts can be extracted and typeset as quality pdf documents. Plain Unicode (utf-8) text
+can also be produced as well as \LaTeX\ source code for custom typesetting.
 
 Introduction
 ____________
@@ -61,6 +61,14 @@ The Texts Selection List
    :align: center
    :alt: Texts Selection List
 
+
+Example of Document Output (pdf)
+--------------------------------
+
+.. figure:: src/manual/images/xenoph.png
+   :scale: 100
+   :align: center
+   :alt: Document Output Example
 
 System Requirements
 ___________________
@@ -226,6 +234,7 @@ application.
 .. _Mingw-64: https://www.mingw-w64.org/
 .. _ActivePerl: https://www.activestate.com/products/perl/
 .. _TexLive: https://www.tug.org/texlive/
+.. _tlg2u: https://github.com/proteusx/tlg2u
 
 
 .. vim: set syntax=rst tw=80 spell fo=tq:
