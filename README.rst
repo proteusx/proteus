@@ -9,7 +9,7 @@ Proteus is is a front end for tlg2u_, the  decoder and converter for the ancient
 texts of the TLG and PHI digital libraries.
 The TLG/PHI databases can be searched via a user interface (GUI) and
 complete texts can be extracted and typeset as quality pdf documents. Plain Unicode (utf-8) text
-can also be produced as well as \LaTeX\ source code for custom typesetting.
+can also be produced as well as LaTeX source code for custom typesetting.
 
 Introduction
 ____________
