@@ -51,6 +51,8 @@ The Author Selection List
    :alt: Author Selection List
 
 
+---------------------------------------------------------------------------------------------
+
 
 
 The Texts Selection List
@@ -61,14 +63,18 @@ The Texts Selection List
    :align: center
    :alt: Texts Selection List
 
+---------------------------------------------------------------------------------------------
+
 
 Example of Document Output (pdf)
 --------------------------------
 
 .. figure:: src/manual/images/xenoph.png
-   :scale: 100
+   :scale: 75
    :align: center
    :alt: Document Output Example
+
+---------------------------------------------------------------------------------------------
 
 System Requirements
 ___________________
