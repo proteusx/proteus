@@ -70,7 +70,7 @@ Example of Document Output (pdf)
 --------------------------------
 
 .. figure:: src/manual/images/xenoph.png
-   :scale: 75
+   :scale: 50
    :align: center
    :alt: Document Output Example
 
