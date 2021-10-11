@@ -1363,7 +1363,7 @@ sub latex_head_foot($)
   \Hrule
   \vspace{2mm}
   \footnotesize Ἐν Ἀθήναις τῇ \grtoday.\hspace{7cm}
-  \copyright Πρωτεύς~~~(proteuss@sdf.lonestar.org).
+  \copyright Πρωτεύς~~~(proteuss@sdf.org).
   \end{document}
   /;
   my $tex_header = $h{header};
