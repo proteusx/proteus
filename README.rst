@@ -233,7 +233,9 @@ application.
         https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
 
 .. [#] PHI7 includes a large collection of documentary papyri and Greek inscriptions.
-         see: https://inscriptions.packhum.org/
+         see:
+
+         https://inscriptions.packhum.org/
 
          and
 
