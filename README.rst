@@ -225,14 +225,14 @@ application.
         all classical Latin literature through to A.D. 200 and some biblical
         texts in Latin, Greek, Coptic, Hebrew and English. For the list of contents
         see:
-        | https://web.archive.org/web/20170623105104/http://latin.packhum.org/canon
-        | and
-        | https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
+        https://web.archive.org/web/20170623105104/http://latin.packhum.org/canon
+        and
+        https://web.archive.org/web/20160803141809/http://www.indiana.edu/~letrs/text-tools/textlists/phibibliog.html
 
 .. [#] PHI7 includes a large collection of documentary papyri and Greek inscriptions.
-        | see: https://inscriptions.packhum.org/
-        | and
-        | https://web.archive.org/web/20080818140802/http://132.236.125.30/content.html
+         see: https://inscriptions.packhum.org/
+         and
+         https://web.archive.org/web/20080818140802/http://132.236.125.30/content.html
 
 .. [#] UTF-8 encoded plain text is compatible with MS Office Word and LibreOffice Writer.
 
