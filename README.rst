@@ -231,6 +231,8 @@ application.
 
 .. [#] PHI7 includes a large collection
         of documentary papyri and Greek inscriptions.
+        https://inscriptions.packhum.org/
+   and
         https://web.archive.org/web/20080818140802/http://132.236.125.30/content.html
 
 .. [#] UTF-8 encoded plain text is compatible with MS Office Word and LibreOffice Writer.
